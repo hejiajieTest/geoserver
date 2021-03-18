@@ -1,0 +1,13 @@
+<dataStore>
+  <id>DataStoreInfoImpl-69a064a6:174685ca8e7:-7d9d</id>
+  <name>cgf</name>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-69a064a6:174685ca8e7:-7dd7</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://www.opengis.net/cite/geometry</entry>
+    <entry key="directory">.\target\default3148302208924164890data\cgf</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

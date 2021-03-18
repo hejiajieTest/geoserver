@@ -1,0 +1,15 @@
+<layer>
+  <name>NamedPlaces</name>
+  <id>LayerInfoImpl-69a064a6:174685ca8e7:-7dba</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-69a064a6:174685ca8e7:-7dbb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-69a064a6:174685ca8e7:-7dbc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

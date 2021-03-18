@@ -1,0 +1,13 @@
+<dataStore>
+  <id>DataStoreInfoImpl-69a064a6:174685ca8e7:-7d90</id>
+  <name>sf</name>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-69a064a6:174685ca8e7:-7ddd</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://cite.opengeospatial.org/gmlsf</entry>
+    <entry key="directory">.\target\default3148302208924164890data\sf</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

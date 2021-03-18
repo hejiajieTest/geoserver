@@ -1,0 +1,64 @@
+<wps>
+  <enabled>true</enabled>
+  <name>WPS</name>
+  <title>Prototype GeoServer WPS</title>
+  <versions>
+    <org.geotools.util.Version>
+      <version>1.0.0</version>
+    </org.geotools.util.Version>
+  </versions>
+  <citeCompliant>false</citeCompliant>
+  <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
+  <verbose>false</verbose>
+  <connectionTimeout>30.0</connectionTimeout>
+  <resourceExpirationTimeout>300</resourceExpirationTimeout>
+  <maxSynchronousProcesses>16</maxSynchronousProcesses>
+  <maxAsynchronousProcesses>16</maxAsynchronousProcesses>
+  <processGroups>
+    <processGroup>
+      <factoryClass>org.geotools.process.geometry.GeometryProcessFactory</factoryClass>
+      <enabled>false</enabled>
+      <filteredProcesses>
+        <accessInfo>
+          <enabled>true</enabled>
+          <name>geo:Area</name>
+          <validators>
+            <entry key="geom">
+              <maxSizeValidator>
+                <maxSizeMB>10</maxSizeMB>
+              </maxSizeValidator>
+            </entry>
+          </validators>
+        </accessInfo>
+      </filteredProcesses>
+    </processGroup>
+    <processGroup>
+      <factoryClass>org.geotools.process.raster.RasterProcessFactory</factoryClass>
+      <enabled>false</enabled>
+      <filteredProcesses>
+        <accessInfo>
+          <enabled>true</enabled>
+          <name>ras:Contour</name>
+          <validators>
+            <entry key="levels">
+              <rangeValidator>
+                <range>
+                  <minValue>-8000.0</minValue>
+                  <maxValue>8000.0</maxValue>
+                </range>
+              </rangeValidator>
+            </entry>
+            <entry key="levels">
+              <maxMultiplicityValidator>
+                <maxInstances>3</maxInstances>
+              </maxMultiplicityValidator>
+            </entry>
+          </validators>
+        </accessInfo>
+      </filteredProcesses>
+    </processGroup>
+  </processGroups>
+  <maxComplexInputSize>0</maxComplexInputSize>
+  <maxSynchronousExecutionTime>0</maxSynchronousExecutionTime>
+  <maxAsynchronousExecutionTime>0</maxAsynchronousExecutionTime>
+</wps>

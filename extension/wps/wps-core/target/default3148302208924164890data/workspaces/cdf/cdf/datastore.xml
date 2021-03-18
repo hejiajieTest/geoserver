@@ -1,0 +1,13 @@
+<dataStore>
+  <id>DataStoreInfoImpl-69a064a6:174685ca8e7:-7dae</id>
+  <name>cdf</name>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-69a064a6:174685ca8e7:-7dd9</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://www.opengis.net/cite/data</entry>
+    <entry key="directory">.\target\default3148302208924164890data\cdf</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

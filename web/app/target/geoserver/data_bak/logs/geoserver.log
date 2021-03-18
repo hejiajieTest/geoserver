@@ -1,0 +1,406 @@
+2017-05-11 17:20:15,606 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-11 17:20:15,660 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-11 17:20:16,410 WARN [support.XmlWebApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wcsServicePage' defined in URL [file:/D:/cyt_work/geoserver-2.11.0/src/web/wcs/target/classes/applicationContext.xml]: Cannot resolve reference to bean 'servicesCategory' while setting bean property 'category'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'servicesCategory' is defined
+2017-05-11 17:20:16,411 WARN [support.DisposableBeanAdapter] - Invocation of destroy method failed on bean with name 'geoServerLoader': java.lang.NullPointerException
+2017-05-11 17:20:16,418 ERROR [context.ContextLoader] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wcsServicePage' defined in URL [file:/D:/cyt_work/geoserver-2.11.0/src/web/wcs/target/classes/applicationContext.xml]: Cannot resolve reference to bean 'servicesCategory' while setting bean property 'category'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'servicesCategory' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.geoserver.platform.GeoServerContextLoaderListener.contextInitialized(GeoServerContextLoaderListener.java:23)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.geoserver.web.Start.main(Start.java:125)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'servicesCategory' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:698)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 32 more
+2017-05-11 17:20:16,430 WARN [webapp.WebAppContext] - Failed startup of context o.e.j.w.WebAppContext@4c51cf28{/geoserver,file:/D:/cyt_work/geoserver-2.11.0/src/web/app/src/main/webapp/,STARTING}{src/web/app/src/main/webapp}
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wcsServicePage' defined in URL [file:/D:/cyt_work/geoserver-2.11.0/src/web/wcs/target/classes/applicationContext.xml]: Cannot resolve reference to bean 'servicesCategory' while setting bean property 'category'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'servicesCategory' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.geoserver.platform.GeoServerContextLoaderListener.contextInitialized(GeoServerContextLoaderListener.java:23)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.geoserver.web.Start.main(Start.java:125)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'servicesCategory' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:698)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 32 more
+2017-05-11 19:22:10,927 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-11 19:22:10,966 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-11 19:22:11,618 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2017-05-11 19:22:11,845 INFO [org.geoserver] - Loaded style 'generic'
+2017-05-11 19:22:11,862 INFO [org.geoserver] - Loaded style 'line'
+2017-05-11 19:22:11,864 INFO [org.geoserver] - Loaded style 'point'
+2017-05-11 19:22:11,866 INFO [org.geoserver] - Loaded style 'polygon'
+2017-05-11 19:22:11,868 INFO [org.geoserver] - Loaded style 'raster'
+2017-05-11 19:22:11,870 WARN [org.geoserver] - No default workspace was found.
+2017-05-11 19:22:11,896 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
+2017-05-11 19:22:12,019 INFO [org.geoserver] - Loaded workspace 'topp'
+2017-05-11 19:22:12,039 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory 'D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data\gwc'.
+2017-05-11 19:22:12,061 WARN [config.GeoserverXMLResourceProvider] - Found no configuration file in config directory, will create one at 'gwc/geowebcache.xml' from template jar:file:/C:/Users/cyt880315/.m2/repository/org/geowebcache/gwc-core/1.11.0/gwc-core-1.11.0.jar!/geowebcache_empty.xml
+2017-05-11 19:22:12,084 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2017-05-11 19:22:12,085 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2017-05-11 19:22:12,190 WARN [config.XMLConfiguration] - ********************************************************************************
+2017-05-11 19:22:12,191 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1: �Ҳ���Ԫ�� 'gwcConfiguration' ��������
+2017-05-11 19:22:12,193 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2017-05-11 19:22:12,194 WARN [config.XMLConfiguration] - ********************************************************************************
+2017-05-11 19:22:12,394 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2017-05-11 19:22:12,396 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2017-05-11 19:22:12,397 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2017-05-11 19:22:12,403 INFO [layer.TileLayerDispatcher] - Configuration GeoServer Catalog Configuration contained no layers.
+2017-05-11 19:22:12,404 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2017-05-11 19:22:12,404 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2017-05-11 19:22:12,405 INFO [layer.TileLayerDispatcher] - Configuration gwc contained no layers.
+2017-05-11 19:22:12,416 INFO [storage.DefaultStorageFinder] - ***************************************************************************************************************************
+2017-05-11 19:22:12,417 INFO [storage.DefaultStorageFinder] - *** Found System environment variable TEMP set to C:\Users\CYT880~1\AppData\Local\Temp, using it as the default prefix. ***
+2017-05-11 19:22:12,418 INFO [storage.DefaultStorageFinder] - ***************************************************************************************************************************
+2017-05-11 19:22:12,526 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory 'D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data\gwc'.
+2017-05-11 19:22:12,549 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory 'D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data\gwc'.
+2017-05-11 19:22:12,576 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2017-05-11 19:22:12,595 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2017-05-11 19:22:12,601 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2017-05-11 19:22:12,604 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2017-05-11 19:22:12,609 INFO [diskquota.DiskQuotaMonitor] - 0 layers attached to global quota 500.0 MB
+2017-05-11 19:22:12,637 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2017-05-11 19:22:13,056 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2017-05-11 19:22:13,091 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2017-05-11 19:22:13,111 INFO [org.geoserver] - Loaded service 'wms', enabled
+2017-05-11 19:22:13,115 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl-59032f3f:15bf73eb29b:-7fff', enabled
+2017-05-11 19:22:13,148 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2017-05-11 19:22:13,587 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-11 19:22:13,677 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows/**] onto handler 'dispatcher'
+2017-05-11 19:22:13,678 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows] onto handler 'dispatcher'
+2017-05-11 19:22:13,736 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs] onto handler 'dispatcher'
+2017-05-11 19:22:13,737 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs/**] onto handler 'dispatcher'
+2017-05-11 19:22:14,830 INFO [ows.OWSHandlerMapping] - Mapped URL path [/TestWfsPost] onto handler 'wfsTestServlet'
+2017-05-11 19:22:14,832 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs/*] onto handler 'dispatcher'
+2017-05-11 19:22:14,833 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs] onto handler 'dispatcher'
+2017-05-11 19:22:19,587 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms] onto handler 'dispatcher'
+2017-05-11 19:22:19,588 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms/*] onto handler 'dispatcher'
+2017-05-11 19:22:19,681 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate/*] onto handler 'dispatcher'
+2017-05-11 19:22:19,681 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate] onto handler 'dispatcher'
+2017-05-11 19:22:21,070 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml] onto handler 'dispatcher'
+2017-05-11 19:22:21,070 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/*] onto handler 'dispatcher'
+2017-05-11 19:22:21,071 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/icon/**/*] onto handler 'kmlIconService'
+2017-05-11 19:22:21,112 INFO [ows.OWSHandlerMapping] - Mapped URL path [/gwc/service/**] onto handler 'dispatcher'
+2017-05-11 19:22:21,179 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2017-05-11 19:22:21,218 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2017-05-11 19:22:21,223 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2017-05-11 19:22:21,311 INFO [rest.RESTDispatcher] - Created RESTDispatcher with 15 paths
+2017-05-11 19:22:21,334 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2017-05-11 19:22:21,334 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2017-05-11 19:22:21,881 INFO [geoserver.security] - Start security migration
+2017-05-11 19:22:21,925 INFO [geoserver.security] - Information regarding the master password is in: security/masterpw.info
+2017-05-11 19:22:22,506 WARN [geoserver.security] - Strong cryptography is NOT available
+Download and installation the of unlimted length policy files is recommended
+2017-05-11 19:22:22,594 INFO [geoserver.security] - Start reloading user/groups for service named default
+2017-05-11 19:22:22,598 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2017-05-11 19:22:22,858 WARN [geoserver.security] - Cannot find: /accessDenied.jsp
+2017-05-11 19:22:22,874 WARN [geoserver.security] - Cannot find: /accessDenied.jsp
+2017-05-11 19:22:22,883 WARN [geoserver.security] - Cannot find: /accessDenied.jsp
+2017-05-11 19:22:22,887 WARN [geoserver.security] - Cannot find: /accessDenied.jsp
+2017-05-11 19:22:22,903 INFO [geoserver.security] - Start encrypting configuration passwords using pbePasswordEncoder
+2017-05-11 19:22:22,923 INFO [geoserver.security] - End encrypting configuration passwords
+2017-05-11 19:22:22,961 WARN [geoserver.security] - Cannot find: /accessDenied.jsp
+2017-05-11 19:22:22,977 WARN [geoserver.security] - Cannot find: /accessDenied.jsp
+2017-05-11 19:22:22,984 WARN [geoserver.security] - Cannot find: /accessDenied.jsp
+2017-05-11 19:22:22,990 WARN [geoserver.security] - Cannot find: /accessDenied.jsp
+2017-05-11 19:22:22,996 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2017-05-11 19:22:22,996 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2017-05-11 19:22:23,016 INFO [security.xml] - Successful lock: security/usergroup/default/users.xml.lock
+2017-05-11 19:22:23,027 INFO [security.xml] - Successful lock: security/role/default/roles.xml.lock
+2017-05-11 19:22:23,032 INFO [geoserver.security] - Start storing roles for service named default
+2017-05-11 19:22:23,101 INFO [geoserver.security] - Storing roles successful for service named default
+2017-05-11 19:22:23,102 INFO [geoserver.security] - Start reloading roles for service named default
+2017-05-11 19:22:23,111 INFO [geoserver.security] - Reloading roles successful for service named default
+2017-05-11 19:22:23,113 INFO [geoserver.security] - Adjusted last modified for file: security/role/default/roles.xml
+2017-05-11 19:22:23,116 INFO [geoserver.security] - Start storing user/groups for service named default
+2017-05-11 19:22:23,124 INFO [geoserver.security] - Storing user/groups successful for service named default
+2017-05-11 19:22:23,124 INFO [geoserver.security] - Start reloading user/groups for service named default
+2017-05-11 19:22:23,133 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2017-05-11 19:22:23,136 INFO [geoserver.security] - Adjusted last modified for file: security/usergroup/default/users.xml
+2017-05-11 19:22:23,139 INFO [geoserver.security] - End security migration
+2017-05-11 19:22:32,602 INFO [geoserver.security] - Start reloading user/groups for service named default
+2017-05-11 19:22:32,609 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2017-05-11 19:22:32,610 INFO [geoserver.security] - Adjusted last modified for file: security/usergroup/default/users.xml
+2017-05-11 19:22:32,610 INFO [geoserver.security] - Start reloading roles for service named default
+2017-05-11 19:22:32,618 INFO [geoserver.security] - Reloading roles successful for service named default
+2017-05-11 19:22:32,618 INFO [geoserver.security] - Adjusted last modified for file: security/role/default/roles.xml
+2017-05-12 10:02:27,624 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-12 10:02:27,681 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-12 10:02:28,294 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2017-05-12 10:02:28,584 INFO [org.geoserver] - Loaded style 'generic'
+2017-05-12 10:02:28,592 INFO [org.geoserver] - Loaded style 'point'
+2017-05-12 10:02:28,593 INFO [org.geoserver] - Loaded style 'polygon'
+2017-05-12 10:02:28,593 INFO [org.geoserver] - Loaded style 'raster'
+2017-05-12 10:02:28,593 INFO [org.geoserver] - Loaded style 'line'
+2017-05-12 10:02:28,594 INFO [org.geoserver] - Loaded default workspace it.geosolutions
+2017-05-12 10:02:28,609 INFO [org.geoserver] - Loaded workspace 'topp'
+2017-05-12 10:02:28,621 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
+2017-05-12 10:02:28,633 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory 'D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data\gwc'.
+2017-05-12 10:02:28,656 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2017-05-12 10:02:28,656 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2017-05-12 10:02:28,656 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2017-05-12 10:02:28,762 WARN [config.XMLConfiguration] - ********************************************************************************
+2017-05-12 10:02:28,763 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1: 找不到元素 'gwcConfiguration' 的声明。
+2017-05-12 10:02:28,763 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2017-05-12 10:02:28,763 WARN [config.XMLConfiguration] - ********************************************************************************
+2017-05-12 10:02:29,065 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2017-05-12 10:02:29,065 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2017-05-12 10:02:29,065 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2017-05-12 10:02:29,070 INFO [layer.TileLayerDispatcher] - Configuration GeoServer Catalog Configuration contained no layers.
+2017-05-12 10:02:29,070 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2017-05-12 10:02:29,071 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2017-05-12 10:02:29,071 INFO [layer.TileLayerDispatcher] - Configuration gwc contained no layers.
+2017-05-12 10:02:29,079 INFO [storage.DefaultStorageFinder] - ***************************************************************************************************************************
+2017-05-12 10:02:29,079 INFO [storage.DefaultStorageFinder] - *** Found System environment variable TEMP set to C:\Users\CYT880~1\AppData\Local\Temp, using it as the default prefix. ***
+2017-05-12 10:02:29,079 INFO [storage.DefaultStorageFinder] - ***************************************************************************************************************************
+2017-05-12 10:02:29,145 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory 'D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data\gwc'.
+2017-05-12 10:02:29,164 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory 'D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data\gwc'.
+2017-05-12 10:02:29,171 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2017-05-12 10:02:29,192 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2017-05-12 10:02:29,196 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2017-05-12 10:02:29,196 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2017-05-12 10:02:29,197 INFO [diskquota.DiskQuotaMonitor] - 0 layers attached to global quota 500.0 MB
+2017-05-12 10:02:29,225 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2017-05-12 10:02:29,644 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2017-05-12 10:02:29,676 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2017-05-12 10:02:29,722 INFO [org.geoserver] - Loaded service 'wms', enabled
+2017-05-12 10:02:29,724 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl-69b56bc8:15bfa649d76:-7fff', enabled
+2017-05-12 10:02:29,757 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2017-05-12 10:02:30,184 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-12 10:02:30,329 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows/**] onto handler 'dispatcher'
+2017-05-12 10:02:30,329 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows] onto handler 'dispatcher'
+2017-05-12 10:02:30,356 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs] onto handler 'dispatcher'
+2017-05-12 10:02:30,357 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs/**] onto handler 'dispatcher'
+2017-05-12 10:02:31,326 INFO [ows.OWSHandlerMapping] - Mapped URL path [/TestWfsPost] onto handler 'wfsTestServlet'
+2017-05-12 10:02:31,327 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs/*] onto handler 'dispatcher'
+2017-05-12 10:02:31,327 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs] onto handler 'dispatcher'
+2017-05-12 10:02:36,430 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms] onto handler 'dispatcher'
+2017-05-12 10:02:36,431 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms/*] onto handler 'dispatcher'
+2017-05-12 10:02:36,505 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate/*] onto handler 'dispatcher'
+2017-05-12 10:02:36,505 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate] onto handler 'dispatcher'
+2017-05-12 10:02:38,182 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml] onto handler 'dispatcher'
+2017-05-12 10:02:38,182 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/*] onto handler 'dispatcher'
+2017-05-12 10:02:38,182 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/icon/**/*] onto handler 'kmlIconService'
+2017-05-12 10:02:38,218 INFO [ows.OWSHandlerMapping] - Mapped URL path [/gwc/service/**] onto handler 'dispatcher'
+2017-05-12 10:02:38,271 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2017-05-12 10:02:38,286 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2017-05-12 10:02:38,306 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2017-05-12 10:02:38,410 INFO [rest.RESTDispatcher] - Created RESTDispatcher with 15 paths
+2017-05-12 10:02:38,438 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2017-05-12 10:02:38,438 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2017-05-12 10:02:39,393 WARN [geoserver.security] - security/masterpw.info is a security risk. Please read this file and remove it afterward
+2017-05-12 10:02:39,931 INFO [geoserver.security] - Start reloading user/groups for service named default
+2017-05-12 10:02:39,940 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2017-05-12 10:02:40,096 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2017-05-12 10:02:40,096 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2017-05-12 10:04:48,745 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-12 10:04:48,790 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-12 10:04:49,623 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2017-05-12 10:04:49,860 INFO [org.geoserver] - Loaded style 'generic'
+2017-05-12 10:04:49,871 INFO [org.geoserver] - Loaded style 'point'
+2017-05-12 10:04:49,872 INFO [org.geoserver] - Loaded style 'polygon'
+2017-05-12 10:04:49,872 INFO [org.geoserver] - Loaded style 'raster'
+2017-05-12 10:04:49,873 INFO [org.geoserver] - Loaded style 'line'
+2017-05-12 10:04:49,874 INFO [org.geoserver] - Loaded default workspace it.geosolutions
+2017-05-12 10:04:49,901 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
+2017-05-12 10:04:49,906 INFO [org.geoserver] - Loaded workspace 'topp'
+2017-05-12 10:04:49,918 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory 'D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data\gwc'.
+2017-05-12 10:04:49,937 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2017-05-12 10:04:49,937 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2017-05-12 10:04:49,937 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2017-05-12 10:04:50,030 WARN [config.XMLConfiguration] - ********************************************************************************
+2017-05-12 10:04:50,031 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1: 找不到元素 'gwcConfiguration' 的声明。
+2017-05-12 10:04:50,031 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2017-05-12 10:04:50,031 WARN [config.XMLConfiguration] - ********************************************************************************
+2017-05-12 10:04:50,374 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2017-05-12 10:04:50,374 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2017-05-12 10:04:50,374 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2017-05-12 10:04:50,381 INFO [layer.TileLayerDispatcher] - Configuration GeoServer Catalog Configuration contained no layers.
+2017-05-12 10:04:50,381 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2017-05-12 10:04:50,381 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2017-05-12 10:04:50,382 INFO [layer.TileLayerDispatcher] - Configuration gwc contained no layers.
+2017-05-12 10:04:50,393 INFO [storage.DefaultStorageFinder] - ***************************************************************************************************************************
+2017-05-12 10:04:50,393 INFO [storage.DefaultStorageFinder] - *** Found System environment variable TEMP set to C:\Users\CYT880~1\AppData\Local\Temp, using it as the default prefix. ***
+2017-05-12 10:04:50,393 INFO [storage.DefaultStorageFinder] - ***************************************************************************************************************************
+2017-05-12 10:04:50,483 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory 'D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data\gwc'.
+2017-05-12 10:04:50,504 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory 'D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data\gwc'.
+2017-05-12 10:04:50,510 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2017-05-12 10:04:50,522 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2017-05-12 10:04:50,526 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2017-05-12 10:04:50,527 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2017-05-12 10:04:50,529 INFO [diskquota.DiskQuotaMonitor] - 0 layers attached to global quota 500.0 MB
+2017-05-12 10:04:50,560 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2017-05-12 10:04:51,001 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2017-05-12 10:04:51,023 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2017-05-12 10:04:51,047 INFO [org.geoserver] - Loaded service 'wms', enabled
+2017-05-12 10:04:51,049 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl-594a072d:15bfa66c531:-7fff', enabled
+2017-05-12 10:04:51,094 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2017-05-12 10:04:51,576 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-12 10:04:51,694 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows/**] onto handler 'dispatcher'
+2017-05-12 10:04:51,694 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows] onto handler 'dispatcher'
+2017-05-12 10:04:51,738 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs] onto handler 'dispatcher'
+2017-05-12 10:04:51,738 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs/**] onto handler 'dispatcher'
+2017-05-12 10:04:52,870 INFO [ows.OWSHandlerMapping] - Mapped URL path [/TestWfsPost] onto handler 'wfsTestServlet'
+2017-05-12 10:04:52,870 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs/*] onto handler 'dispatcher'
+2017-05-12 10:04:52,870 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs] onto handler 'dispatcher'
+2017-05-12 10:04:58,072 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms] onto handler 'dispatcher'
+2017-05-12 10:04:58,072 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms/*] onto handler 'dispatcher'
+2017-05-12 10:04:58,155 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate/*] onto handler 'dispatcher'
+2017-05-12 10:04:58,156 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate] onto handler 'dispatcher'
+2017-05-12 10:05:00,408 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml] onto handler 'dispatcher'
+2017-05-12 10:05:00,409 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/*] onto handler 'dispatcher'
+2017-05-12 10:05:00,409 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/icon/**/*] onto handler 'kmlIconService'
+2017-05-12 10:05:00,481 INFO [ows.OWSHandlerMapping] - Mapped URL path [/gwc/service/**] onto handler 'dispatcher'
+2017-05-12 10:05:00,565 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2017-05-12 10:05:00,591 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2017-05-12 10:05:00,594 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2017-05-12 10:05:00,736 INFO [rest.RESTDispatcher] - Created RESTDispatcher with 15 paths
+2017-05-12 10:05:00,767 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2017-05-12 10:05:00,767 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2017-05-12 10:05:01,306 WARN [geoserver.security] - security/masterpw.info is a security risk. Please read this file and remove it afterward
+2017-05-12 10:05:01,603 INFO [geoserver.security] - Start reloading user/groups for service named default
+2017-05-12 10:05:01,607 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2017-05-12 10:05:01,818 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2017-05-12 10:05:01,818 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2017-05-12 10:05:32,799 WARN [geoserver.security] - Strong cryptography is NOT available
+Download and installation the of unlimted length policy files is recommended
+2017-05-12 10:05:52,187 WARN [geoserver.web] - Unable to find property: 'format.wms.rss' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2017-05-12 10:05:52,188 WARN [geoserver.web] - Unable to find property: 'format.wms.application/vnd.google-earth.kml' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2017-05-25 15:56:36,433 WARN [geoserver.global] - Found System environment variable GEOSERVER_DATA_DIR set to D:\cyt_work\geoserver-2.11.0\data\release , but this path does not exist
+2017-05-25 15:56:36,450 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-25 15:56:36,470 WARN [geoserver.global] - Found System environment variable GEOSERVER_DATA_DIR set to D:\cyt_work\geoserver-2.11.0\data\release , but this path does not exist
+2017-05-25 15:56:36,470 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-25 15:56:37,314 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2017-05-25 15:56:37,620 INFO [org.geoserver] - Loaded style 'line'
+2017-05-25 15:56:37,621 INFO [org.geoserver] - Loaded style 'point'
+2017-05-25 15:56:37,622 INFO [org.geoserver] - Loaded style 'generic'
+2017-05-25 15:56:37,623 INFO [org.geoserver] - Loaded style 'polygon'
+2017-05-25 15:56:37,623 INFO [org.geoserver] - Loaded style 'raster'
+2017-05-25 15:56:37,625 INFO [org.geoserver] - Loaded default workspace it.geosolutions
+2017-05-25 15:56:37,650 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
+2017-05-25 15:56:37,658 INFO [org.geoserver] - Loaded workspace 'topp'
+2017-05-25 15:56:37,673 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory 'D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data\gwc'.
+2017-05-25 15:56:37,697 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2017-05-25 15:56:37,698 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2017-05-25 15:56:37,698 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2017-05-25 15:56:37,860 WARN [config.XMLConfiguration] - ********************************************************************************
+2017-05-25 15:56:37,861 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1: 找不到元素 'gwcConfiguration' 的声明。
+2017-05-25 15:56:37,861 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2017-05-25 15:56:37,861 WARN [config.XMLConfiguration] - ********************************************************************************
+2017-05-25 15:56:38,170 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2017-05-25 15:56:38,170 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2017-05-25 15:56:38,170 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2017-05-25 15:56:38,187 INFO [layer.TileLayerDispatcher] - Configuration GeoServer Catalog Configuration contained no layers.
+2017-05-25 15:56:38,188 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2017-05-25 15:56:38,188 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2017-05-25 15:56:38,189 INFO [layer.TileLayerDispatcher] - Configuration gwc contained no layers.
+2017-05-25 15:56:38,200 ERROR [storage.DefaultStorageFinder] - Found System environment variable GEOSERVER_DATA_DIR set to D:\cyt_work\geoserver-2.11.0\data\release , but this path does not exist
+2017-05-25 15:56:38,201 INFO [storage.DefaultStorageFinder] - ***************************************************************************************************************************
+2017-05-25 15:56:38,201 INFO [storage.DefaultStorageFinder] - *** Found System environment variable TEMP set to C:\Users\CYT880~1\AppData\Local\Temp, using it as the default prefix. ***
+2017-05-25 15:56:38,201 INFO [storage.DefaultStorageFinder] - ***************************************************************************************************************************
+2017-05-25 15:56:38,295 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory 'D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data\gwc'.
+2017-05-25 15:56:38,317 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory 'D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data\gwc'.
+2017-05-25 15:56:38,322 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2017-05-25 15:56:38,336 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2017-05-25 15:56:38,340 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2017-05-25 15:56:38,340 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2017-05-25 15:56:38,341 INFO [diskquota.DiskQuotaMonitor] - 0 layers attached to global quota 500.0 MB
+2017-05-25 15:56:38,411 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2017-05-25 15:56:39,065 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2017-05-25 15:56:39,090 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2017-05-25 15:56:39,122 INFO [org.geoserver] - Loaded service 'wms', enabled
+2017-05-25 15:56:39,124 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl-683b2ccb:15c3e9b8639:-7fff', enabled
+2017-05-25 15:56:39,209 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2017-05-25 15:56:40,192 WARN [geoserver.global] - Found System environment variable GEOSERVER_DATA_DIR set to D:\cyt_work\geoserver-2.11.0\data\release , but this path does not exist
+2017-05-25 15:56:40,193 INFO [geoserver.global] - Falling back to embedded data directory: D:\cyt_work\geoserver-2.11.0\src\web\app\src\main\webapp\data
+2017-05-25 15:56:40,330 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows/**] onto handler 'dispatcher'
+2017-05-25 15:56:40,331 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows] onto handler 'dispatcher'
+2017-05-25 15:56:40,392 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs] onto handler 'dispatcher'
+2017-05-25 15:56:40,392 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs/**] onto handler 'dispatcher'
+2017-05-25 15:56:42,343 INFO [ows.OWSHandlerMapping] - Mapped URL path [/TestWfsPost] onto handler 'wfsTestServlet'
+2017-05-25 15:56:42,346 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs/*] onto handler 'dispatcher'
+2017-05-25 15:56:42,346 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs] onto handler 'dispatcher'
+2017-05-25 15:56:47,803 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms] onto handler 'dispatcher'
+2017-05-25 15:56:47,803 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms/*] onto handler 'dispatcher'
+2017-05-25 15:56:47,884 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate/*] onto handler 'dispatcher'
+2017-05-25 15:56:47,884 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate] onto handler 'dispatcher'
+2017-05-25 15:56:49,656 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml] onto handler 'dispatcher'
+2017-05-25 15:56:49,656 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/*] onto handler 'dispatcher'
+2017-05-25 15:56:49,656 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/icon/**/*] onto handler 'kmlIconService'
+2017-05-25 15:56:49,695 INFO [ows.OWSHandlerMapping] - Mapped URL path [/gwc/service/**] onto handler 'dispatcher'
+2017-05-25 15:56:49,748 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2017-05-25 15:56:49,766 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2017-05-25 15:56:49,768 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2017-05-25 15:56:49,891 INFO [rest.RESTDispatcher] - Created RESTDispatcher with 15 paths
+2017-05-25 15:56:49,959 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2017-05-25 15:56:49,959 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2017-05-25 15:56:50,967 WARN [geoserver.security] - security/masterpw.info is a security risk. Please read this file and remove it afterward
+2017-05-25 15:56:51,361 INFO [geoserver.security] - Start reloading user/groups for service named default
+2017-05-25 15:56:51,364 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2017-05-25 15:56:52,018 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2017-05-25 15:56:52,019 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2017-05-25 15:58:57,692 WARN [geoserver.security] - Strong cryptography is NOT available
+Download and installation the of unlimted length policy files is recommended

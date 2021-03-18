@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gs-wcs2_0" />
+        <module name="gs-wcs" />
+        <module name="gs-ows" />
+        <module name="gs-rest" />
+        <module name="gs-web-sec-ldap" />
+        <module name="gs-web-wfs" />
+        <module name="gs-gwc" />
+        <module name="gs-web-wms" />
+        <module name="gs-web-demo" />
+        <module name="gs-main" />
+        <module name="gs-sec-jdbc" />
+        <module name="gs-web-core" />
+        <module name="gs-wfs" />
+        <module name="gs-web-rest" />
+        <module name="gs-sec-ldap" />
+        <module name="gs-platform" />
+        <module name="gs-wms" />
+        <module name="gs-web-app" />
+        <module name="gs-restconfig" />
+        <module name="gs-web-sec-core" />
+        <module name="gs-web-sec-jdbc" />
+        <module name="gs-kml" />
+        <module name="gs-web-wcs" />
+        <module name="gs-web-gwc" />
+        <module name="gs-wcs1_1" />
+        <module name="gs-wcs1_0" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="community" target="1.8" />
+      <module name="extension" target="1.8" />
+      <module name="geoserver" target="1.8" />
+      <module name="gs-gwc" target="1.8" />
+      <module name="gs-kml" target="1.8" />
+      <module name="gs-main" target="1.8" />
+      <module name="gs-ows" target="1.8" />
+      <module name="gs-platform" target="1.8" />
+      <module name="gs-rest" target="1.8" />
+      <module name="gs-restconfig" target="1.8" />
+      <module name="gs-sec-jdbc" target="1.8" />
+      <module name="gs-sec-ldap" target="1.8" />
+      <module name="gs-security" target="1.8" />
+      <module name="gs-wcs" target="1.8" />
+      <module name="gs-wcs1_0" target="1.8" />
+      <module name="gs-wcs1_1" target="1.8" />
+      <module name="gs-wcs2_0" target="1.8" />
+      <module name="gs-web-app" target="1.8" />
+      <module name="gs-web-core" target="1.8" />
+      <module name="gs-web-demo" target="1.8" />
+      <module name="gs-web-gwc" target="1.8" />
+      <module name="gs-web-rest" target="1.8" />
+      <module name="gs-web-sec" target="1.8" />
+      <module name="gs-web-sec-core" target="1.8" />
+      <module name="gs-web-sec-jdbc" target="1.8" />
+      <module name="gs-web-sec-ldap" target="1.8" />
+      <module name="gs-web-wcs" target="1.8" />
+      <module name="gs-web-wfs" target="1.8" />
+      <module name="gs-web-wms" target="1.8" />
+      <module name="gs-wfs" target="1.8" />
+      <module name="gs-wms" target="1.8" />
+      <module name="web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

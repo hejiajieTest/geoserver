@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/gwc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gwc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/main/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/main/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ows/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/restconfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security/jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security/jdbc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security/ldap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security/ldap/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcs1_0/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcs1_0/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcs1_1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcs1_1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcs2_0/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcs2_0/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/gwc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/gwc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/rest/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/security/core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/security/core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/wcs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/wcs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/wfs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/wfs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/wms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/wms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wfs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wfs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wms/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

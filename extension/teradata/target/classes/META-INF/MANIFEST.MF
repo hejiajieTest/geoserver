@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Application-Name: 
+Implementation-Title: Teradata DataStore Extension
+Implementation-Version: 2.11.0
+Build-Timestamp: 18-￤ﾸﾉ￦ﾜﾈ-2021 08:11
+Built-By: jj.he
+Specification-Vendor: Open Source Geospatial Foundation
+Specification-Title: Teradata DataStore Extension
+Implementation-Vendor-Id: org.geoserver.extension
+GeoServerModule: extension
+Project-Version: 2.11.0
+Implementation-Vendor: Open Source Geospatial Foundation
+Iteration-Name: 
+Git-Revision: 
+Build-Jdk: 1.8.0_152
+Specification-Version: 2.11.0
+Created-By: Maven Integration for Eclipse
+

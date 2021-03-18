@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: no.ecc.vectortile:java-vector-tile:1.0.9">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/no/ecc/vectortile/java-vector-tile/1.0.9/java-vector-tile-1.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/no/ecc/vectortile/java-vector-tile/1.0.9/java-vector-tile-1.0.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/no/ecc/vectortile/java-vector-tile/1.0.9/java-vector-tile-1.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

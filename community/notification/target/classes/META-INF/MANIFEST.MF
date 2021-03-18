@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Application-Name: 
+Implementation-Title: GeoServer notification event system
+Implementation-Version: 2.11.0
+Build-Timestamp: 18-￤ﾸﾉ￦ﾜﾈ-2021 08:10
+Built-By: jj.he
+Specification-Vendor: Open Source Geospatial Foundation
+Specification-Title: GeoServer notification event system
+Implementation-Vendor-Id: org.geoserver.community
+GeoServerModule: community
+Project-Version: 2.11.0
+Implementation-Vendor: Open Source Geospatial Foundation
+Iteration-Name: 
+Git-Revision: 
+Build-Jdk: 1.8.0_152
+Specification-Version: 2.11.0
+Created-By: Maven Integration for Eclipse
+

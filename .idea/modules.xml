@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/community/community.iml" filepath="$PROJECT_DIR$/community/community.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extension/extension.iml" filepath="$PROJECT_DIR$/extension/extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geoserver.iml" filepath="$PROJECT_DIR$/geoserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gwc/gs-gwc.iml" filepath="$PROJECT_DIR$/gwc/gs-gwc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kml/gs-kml.iml" filepath="$PROJECT_DIR$/kml/gs-kml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main/gs-main.iml" filepath="$PROJECT_DIR$/main/gs-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ows/gs-ows.iml" filepath="$PROJECT_DIR$/ows/gs-ows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/gs-platform.iml" filepath="$PROJECT_DIR$/platform/gs-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest/gs-rest.iml" filepath="$PROJECT_DIR$/rest/gs-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restconfig/gs-restconfig.iml" filepath="$PROJECT_DIR$/restconfig/gs-restconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security/jdbc/gs-sec-jdbc.iml" filepath="$PROJECT_DIR$/security/jdbc/gs-sec-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security/ldap/gs-sec-ldap.iml" filepath="$PROJECT_DIR$/security/ldap/gs-sec-ldap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security/gs-security.iml" filepath="$PROJECT_DIR$/security/gs-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wcs/gs-wcs.iml" filepath="$PROJECT_DIR$/wcs/gs-wcs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wcs1_0/gs-wcs1_0.iml" filepath="$PROJECT_DIR$/wcs1_0/gs-wcs1_0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wcs1_1/gs-wcs1_1.iml" filepath="$PROJECT_DIR$/wcs1_1/gs-wcs1_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wcs2_0/gs-wcs2_0.iml" filepath="$PROJECT_DIR$/wcs2_0/gs-wcs2_0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/app/gs-web-app.iml" filepath="$PROJECT_DIR$/web/app/gs-web-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/core/gs-web-core.iml" filepath="$PROJECT_DIR$/web/core/gs-web-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/demo/gs-web-demo.iml" filepath="$PROJECT_DIR$/web/demo/gs-web-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/gwc/gs-web-gwc.iml" filepath="$PROJECT_DIR$/web/gwc/gs-web-gwc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/rest/gs-web-rest.iml" filepath="$PROJECT_DIR$/web/rest/gs-web-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/security/gs-web-sec.iml" filepath="$PROJECT_DIR$/web/security/gs-web-sec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/security/core/gs-web-sec-core.iml" filepath="$PROJECT_DIR$/web/security/core/gs-web-sec-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/security/jdbc/gs-web-sec-jdbc.iml" filepath="$PROJECT_DIR$/web/security/jdbc/gs-web-sec-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/security/ldap/gs-web-sec-ldap.iml" filepath="$PROJECT_DIR$/web/security/ldap/gs-web-sec-ldap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/wcs/gs-web-wcs.iml" filepath="$PROJECT_DIR$/web/wcs/gs-web-wcs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/wfs/gs-web-wfs.iml" filepath="$PROJECT_DIR$/web/wfs/gs-web-wfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/wms/gs-web-wms.iml" filepath="$PROJECT_DIR$/web/wms/gs-web-wms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wfs/gs-wfs.iml" filepath="$PROJECT_DIR$/wfs/gs-wfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wms/gs-wms.iml" filepath="$PROJECT_DIR$/wms/gs-wms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>
